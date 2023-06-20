@@ -5,7 +5,7 @@ import { View, Text, Image, StyleSheet } from 'react-native';
 const AuthProductCard = ({ title, price, imageSource }) => {
   return (
     <View style={styles.container}>
-      <Image source='https://akm-img-a-in.tosshub.com/indiatoday/images/story/202211/iphone_15_1-one_one_0.jpg?VersionId=9SXvA92iozGaChGDPBb7I.rynGQB14eI' style={styles.image} />
+      <Image source={{uri:'https://akm-img-a-in.tosshub.com/indiatoday/images/story/202211/iphone_15_1-one_one_0.jpg?VersionId=9SXvA92iozGaChGDPBb7I.rynGQB14eI'}} style={styles.image} />
       <Text style={styles.title}>IPhone</Text>
       <Text style={styles.price}>Price:Rs 110000</Text>
     </View>
